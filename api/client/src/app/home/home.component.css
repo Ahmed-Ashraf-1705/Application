@@ -1,0 +1,28 @@
+*{
+    transition: all .4s ease-in-out;
+}
+.homepageContainer{
+    width: 400px;
+}
+.row{
+    margin: 10px 0px 5px 0px;
+    overflow-x: hidden;
+    position: relative;
+    height: 500px;
+}
+
+.left , .right{
+    display: inline;
+    position: absolute;
+}
+.left{
+    float: left;
+    width: 400px;
+    height: auto;
+}
+.right{
+    float: right;
+    width: 400px;
+    height: auto;
+    margin-left: 405px;
+}
